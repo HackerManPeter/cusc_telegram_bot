@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from pymongo import MongoClient
 
 load_dotenv()
-CONNECTION_STRING = os.environ["CONNECTION_STRING"]
+CONNECTION_STRING = os.environ["CONNECTION_STRING2"]
 
 client = MongoClient(CONNECTION_STRING)
 
